@@ -1,82 +1,68 @@
-<!DOCTYPE html> <!---Versão do documento -->
+<!DOCTYPE html>
 <html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Online - Login</title>
+</head>
+<body>
+    <div id="Login">
 
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Curriculo Online</title>
-    </head>
+        <figure>
+        <img src="img/icone.png" alt="Logo" width="150px">
+        </figure>
 
-    <body>
-        <span id="topo"></span>
-        <header>
-            <img src="img/foto-igor.jpg" 
-                    width="200px"
-                    alt="Foto do Perfil" />
-            <h1>Igor Lima</h1>
+        <h1>Logar</h1>
 
-            <hr/> <!--Linha horizontal-->
-            <blockquote> &#10077; Estudante de Análise e Desenvolvimento de Sistemas -  3º Semestre | Capacitação em Ciência de Dados TIC 20 </blockquote>
-            <span>Ceará</span>,
-            <span>Fortaleza</span> &sdot;
-            <span>Brasil</span> &sdot;
-            <a href="#info-contatos">Informação de Contato</a>
-            <a href="projetos.html">Projetos</a>
-            &copy;
-        </header><!--cabeçalho-->
+        <form action="perfil.html" method="POST">
 
-        <section id="perfil">
-        <article>
-            <h2>Sobre</h2>
-            <p> &#10077; Sou um jovem que sempre se fascinou pela área de tecnologia. Tenho o objetivo de crescer dentro desse mercado buscando sempre o aprendizado e oportunidades. Me destaco com a minha comunicação clara e efetiva, interesse em novos aprendizados e crescimento colaborativo com a empresa em que atuo. Com um aprendizado rápido, me desenvolvo com facilidade e sempre corro atrás de resoluções, em casos de problemas, e procuro sempre compartilhar conhecimento, sempre disposto a novos desafios.&#10077; </p>
-        </article>
+            <div>
+                <label for="email">E-mail</label>
+                <input 
+                
+                    type="email" 
+                    name="email" 
+                    id="email"
+                    placeholder="email@provedor.com"
 
-        <article>
-            <h2>Experiência</h2>
-            <ol>
-                <li>   Assistente de Logística    </li>
-                <li>   Vendedor    </li>
-                <li>   Tecnico em Refriegeração   </li>
-            </ol>
-        </article>
+                />
 
-        <article>    
-            <h2>Formação</h2>
-                <ul>
-                    <li> Faculdade Estácio - Analise e desenvolvimento de sistemas</li>
-                    <li>Tic-20-Ciéncias de Dados </li>
-                </ul>
-        </article>      
-        <article>  
-            <h2>Competência e Habilidades</h2>
-            <ul>
-                <li>Inglês técnico (básico)</li>
-                <li>Trabalhar em Equipes, Times , Squads</li>
-                <li>Comunicativo </li>
-            </ul>
-        </article> 
+            </div>
+                <br/>
+            <div>
+                <label for="password">Senha</label>
+                <input 
+                
+                    type="password" 
+                    name="password" 
+                    id="password"
+                    placeholder="senha"
+                />
 
-        <article id="info-contatos">
+            </div>
+            <br>
+            <div>
+                <input
+                type="submit"
+                name="btn-enviar"
+                id="btn-enviar" 
+                value="Enviar" 
+                />
+              
+                <input
+                type="reset"
+                name="btn-limpar"
+                id="btn-limpar" 
+                value="Limpar" 
+                />
+                <!--<button type="submit">Enviar</button>--->
+                
+            </div>
 
-            <h2>Informação de Contatos</h2>
+            </div>
 
-            <h3>Instagram</h3>
-            <a href="https://www.Instagram.com/igorlima">@igorlimaisl</a> <!--Fazer a correção do link -->
+        </form>
 
-            <h3>E-mail</h3>
-            <a href="mailto:igorlimaisl7@gmail.com"
-                target="_blank" rel="nooreper">igorlimaisl@gmail.com</a>
-
-                <h3>Celular</h3>
-                <p>(85)98141-3141</p>
-        </article>
-        </section>
-
-        <!--rodapé-->
-        <footer>
-            <nav>
-            <p><a href="#topo"> &#9757;ir para  o topo</a></p>
-            </nav> 
-        </footer>
-    </body>
-
+    </div>
+</body>
 </html>
