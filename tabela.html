@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> tabelas </h1>
+    <h2>Tabela comuns</h2>
+    <table border="1" width="250px">
+    <caption>Dados Pessoais</caption>
+    <tr><!--linhas-->
+        <th>Nome </th><th>idade</tr>
+
+    </tr>
+    <h2>Tabela com colspan</h2>
+    <tr>
+        <td>Igor Lima</td>
+        <td>26</td>
+    </tr>
+    </table>
+
+    <table border="2" width="250px">
+    <caption>Agenda</caption>
+    <tr><!--linhas-->
+        <th>Nome </th><th>Telefone</tr>
+
+    </tr>
+    <tr>
+        <td>Igor Lima</td>
+        <td>85-999000</td>
+    </tr>
+    <tr>
+        <td>Igor Lima junior</td>
+        <td>85-9999</td>
+    </tr>
+    </table>
+
+    <h2>Tabela com Rowspan</h2>
+    <table border="1" width="250px">
+        <caption>Notas Biometricas</caption>
+        <thead>
+            <tr>
+                <th>Bimestre</th>
+                <th>Disciplina</th>
+                <th>Notas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">1</td>
+                <td>Geografia</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Historia</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <td>Artes</td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td>Portugues</td>
+                <td>7.5</td> 
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Tabela com Espaçamentos</h2>
+    <table border="1" wdth="400px"
+        cellpadding="15" cellspacing="0"><!--altura e distancia da linha . CORRETO É USAR CSS NA FORMATAÇÃO-->
+
+        <caption>Dados Pessoais</caption>
+        <tr>
+            <th>Nome</th><th>Idade</th>
+        </tr>
+
+        <tr>
+        <td>Igor Lima</td>
+        <td>26</td>  
+        </tr>
+
+        <tr>
+        <td>Igor Lima junior</td>
+        <td>26</td>  
+        </tr> 
+    </table>
+</body>
+</html>
